@@ -3,99 +3,6 @@
     padding: 0;
     text-decoration: none;
 }
-/* font styles */ 
-/* roboto-regular - latin */
-@font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/roboto-v30-latin-regular.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('../fonts/roboto-v30-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/roboto-v30-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/roboto-v30-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/roboto-v30-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
-  }
-  /* roboto-500 - latin */
-  @font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    src: url('../fonts/roboto-v30-latin-500.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('../fonts/roboto-v30-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/roboto-v30-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/roboto-v30-latin-500.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/roboto-v30-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/roboto-v30-latin-500.svg#Roboto') format('svg'); /* Legacy iOS */
-  }
-  /* roboto-700 - latin */
-  @font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    src: url('../fonts/roboto-v30-latin-700.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('../fonts/roboto-v30-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/roboto-v30-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/roboto-v30-latin-700.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/roboto-v30-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/roboto-v30-latin-700.svg#Roboto') format('svg'); /* Legacy iOS */
-  }
-  /* roboto-900 - latin */
-  @font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
-    src: url('../fonts/roboto-v30-latin-900.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('../fonts/roboto-v30-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/roboto-v30-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/roboto-v30-latin-900.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/roboto-v30-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/roboto-v30-latin-900.svg#Roboto') format('svg'); /* Legacy iOS */
-  }
-
-/* raleway-regular - latin */
-@font-face {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/raleway-v28-latin-regular.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('../fonts/raleway-v28-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/raleway-v28-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/raleway-v28-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/raleway-v28-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/raleway-v28-latin-regular.svg#Raleway') format('svg'); /* Legacy iOS */
-  }
-  /* raleway-700 - latin */
-  @font-face {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    src: url('../fonts/raleway-v28-latin-700.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('../fonts/raleway-v28-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/raleway-v28-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/raleway-v28-latin-700.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/raleway-v28-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/raleway-v28-latin-700.svg#Raleway') format('svg'); /* Legacy iOS */
-  }
-  /* raleway-900 - latin */
-  @font-face {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 900;
-    src: url('../fonts/raleway-v28-latin-900.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('../fonts/raleway-v28-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/raleway-v28-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/raleway-v28-latin-900.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/raleway-v28-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/raleway-v28-latin-900.svg#Raleway') format('svg'); /* Legacy iOS */
-  }
 
 /* header styles */ 
 
@@ -108,8 +15,13 @@
     --bgcolor-white: #ffffff;
 }
 
-.bost{
-    font-family: 'Roboto';
+html{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
 }
 
 .header{
@@ -123,7 +35,6 @@
     display: block;
     color: var(--logo-color-black);
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -155,8 +66,6 @@
 .navi-menu-link, .navi-contacts-link{
     color:var(--text-color-black-grey);
     text-decoration: none;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -170,8 +79,8 @@
 }
 
 .navi-contacts-link{
-    color: #717171;
     margin-left: 50px;
+    color: var(--text-color-description)
 }
 
 .navi-contacts-link:hover,
@@ -193,8 +102,6 @@
 
 .hero-section-h1{
     width: 696px;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -214,8 +121,6 @@
     border-radius: 4px;
     padding: 10px 32px;
     color: var(--bgcolor-white);
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
@@ -248,7 +153,6 @@
     list-style: none;
     width: 270px;
     margin-right: 30px;
-    margin-bottom: 94px;
 }
 
 .adv-section-list:last-child{
@@ -256,8 +160,6 @@
 }
 
 .adv-section-h3{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -268,8 +170,6 @@
 }
 
 .adv-section-description{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -285,8 +185,6 @@
 }
 
 .working-section-h2{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -314,8 +212,6 @@
 }
 
 .team-section-h2{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -345,8 +241,6 @@
 .team-section-h3{
     padding-top: 30px;
     padding-bottom: 10px;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -356,8 +250,6 @@
 }
 
 .team-section-description{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -382,7 +274,6 @@
     display: block;
     color: #fff;
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -401,8 +292,6 @@
 }
 
 .footer-address-line{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -417,8 +306,6 @@
 }
 
 .footer-address-link{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -429,7 +316,6 @@
 /* portfolio styles page */
 
 .portfolio-main-block{
-    width: 1170px;
     margin: 0 auto;
     padding-top: 94px;
     border-top: 1px solid #ECECEC;
@@ -444,14 +330,6 @@
 .portfolio-nav-list{
     list-style: none;
     margin-right: 8px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--text-color-black-grey);
 }
 
 .portfolio-nav-list:last-child{
@@ -459,11 +337,15 @@
 }
 
 .portfolio-button{
-    background-color: var(--bgcolor);;
-    color: #000;
+    background-color: var(--bgcolor);
     padding: 6px 25px;
     border: none;
-    border-radius: 4px; 
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: var(--text-color-black-grey); 
 }
 
 .portfolio-button:hover,
@@ -508,8 +390,6 @@
 
 .product-section-name-link{
     display: block;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
@@ -522,8 +402,6 @@
 
 .product-section-details-link{
     display: block;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
